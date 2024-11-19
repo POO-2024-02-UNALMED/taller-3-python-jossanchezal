@@ -55,7 +55,7 @@ class TV:
         if self.__estado==True and 0 <= self.__volumen < 7: 
             self.__volumen += 1
     def volumenDown(self):
-        if self.__estado==True and 0 <= self.__volumen <= 7: 
+        if self.__estado==True and 0 < self.__volumen <= 7: 
             self.__volumen -= 1
 
     
