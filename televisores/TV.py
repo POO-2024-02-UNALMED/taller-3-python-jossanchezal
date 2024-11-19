@@ -49,7 +49,7 @@ class TV:
         if self.__estado==True and 1 <= self.__canal < 120:  
             self.__canal += 1
     def canalDown(self):
-        if self.__estado==True and 1 <= self.__canal <= 120: 
+        if self.__estado==True and 1 < self.__canal <= 120: 
             self.__canal -= 1
     def volumenUp(self):
         if self.__estado==True and 0 <= self.__volumen < 7: 
